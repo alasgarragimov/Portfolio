@@ -1,0 +1,46 @@
+.form_left_container {
+    width: 550px;
+    height: 100%;
+    padding: 1.875rem;
+    background-color: #ffffff;
+}
+
+.title_h4 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-bottom: 1.25rem;
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input,
+.textarea {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form_label {
+    padding: 0.75rem 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
+    color: #999;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 8px 30px;
+    font-size: 1.125rem;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4aaaa5;
+    border-radius: 4px;
+    border: 0 none;
+}

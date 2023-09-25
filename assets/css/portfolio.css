@@ -1,0 +1,55 @@
+.main_container {
+    display: flex;
+}
+
+.portfolio_h1 {
+    width: 600px;
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-bottom: 1.25rem;
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.portfolio_info {
+    display: flex;
+    width: 600px;
+    height: 100%;
+    padding: 30px;
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.portfolio_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.portf_img {
+    position: relative;
+}
+
+.img {
+    width: 260px;
+    height: 240px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.portf_h3 {
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
